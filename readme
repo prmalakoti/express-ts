@@ -1,0 +1,33 @@
+# This an Express app setup using TypeScript
+
+## Install dependencies
+
+`npm install express
+npm install --save-dev typescript @types/node @types/express ts-node
+`
+
+### express: The Express web framework.
+
+### typescript: The TypeScript compiler.
+
+### @types/node: Type definitions for Node.js.
+
+### @types/express: Type definitions for Express.
+
+### ts-node: A TypeScript execution engine for Node.js (helps with running TypeScript files directly).
+
+## Create a tsconfig.json file
+
+npx tsc --init
+
+## Run the app
+
+`npm run dev
+npm run build
+npm run start`
+
+### start: Runs the compiled code from the dist/ directory.
+
+### build: Compiles TypeScript code into JavaScript using tsc.
+
+### dev: Runs the app directly with ts-node for development.
